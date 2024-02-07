@@ -8,19 +8,21 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+
+
 </head>
 <body>
     
 
-    <div class="upload-area" style="color: #fff;">
+    <div class="upload-area" style="color: #fff;" id="fileDropArea">
         <p>Drag&Drop or Click to Upload <i class="fa-solid fa-upload"></i></p>
         <input type="file" id="fileInput" style="display: none;">
     </div>
 
 
-    <div class="table-area">
-        <table>
+    <div class="table-area" >
+        <table id="fileinput">
             <thead>
                 <tr>
                     <th>Id</th>
@@ -51,6 +53,7 @@
     </div>
 
 
+  
     <script src="/app.js"></script>
 </body>
 </html>
